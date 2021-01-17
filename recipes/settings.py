@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '*_t@l+jw$%547upbsfp3)%ct!a-3%t+@&yvrws3#-r%in&l45g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['nameless-thicket-69877.herokuapp.com']
+ALLOWED_HOSTS = []
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -96,15 +96,15 @@ WSGI_APPLICATION = 'recipes.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'recipes_db',
-#         'USER': 'postgres',
-#         'PASSWORD': 'postgres',
-#         'HOST': '127.0.0.1',
-#         'PORT': '5432',
-#     }
-# }
+#      'default': {
+#          'ENGINE': 'django.db.backends.postgresql',
+#          'NAME': 'recipes_db',
+#          'USER': 'postgres',
+#          'PASSWORD': 'postgres',
+#          'HOST': '127.0.0.1',
+#          'PORT': '5432',
+#      }
+#  }
 
 DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost/recipes_db')}
 
