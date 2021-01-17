@@ -2006,6 +2006,7 @@ input[type=checkbox]:checked + label:before {
     height: 515px;
 }
 
+/*
 .cat-1-bg {
     background-image: url(../img/latest-offers/img-1.jpg);
 }
@@ -2025,7 +2026,7 @@ input[type=checkbox]:checked + label:before {
 .cat-5-bg {
     background-image: url(../img/latest-offers/img-5.jpg);
 }
-
+*/
 .category:hover .category_bg_box {
     transform: scale(1.06);
     transition: transform 0.35s ease-out;
