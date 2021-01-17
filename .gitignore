@@ -10,6 +10,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
 # <django-project-name>/staticfiles/
@@ -66,7 +67,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-pytestdebug.log
 
 # Translations
 *.mo
@@ -82,7 +82,6 @@ instance/
 
 # Sphinx documentation
 docs/_build/
-doc/_build/
 
 # PyBuilder
 target/
@@ -122,7 +121,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-pythonenv*
 
 # Spyder project settings
 .spyderproject
@@ -145,7 +143,6 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# profiling data
-.prof
+/media
 
 # End of https://www.toptal.com/developers/gitignore/api/django
