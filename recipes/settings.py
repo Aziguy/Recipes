@@ -26,7 +26,7 @@ SECRET_KEY = '*_t@l+jw$%547upbsfp3)%ct!a-3%t+@&yvrws3#-r%in&l45g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nameless-thicket-69877.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
