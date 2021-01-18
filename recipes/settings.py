@@ -169,11 +169,15 @@ MESSAGE_TAGS = {
 SITE_ID = 3
 
 # Email sending
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "mandatairessm@gmail.com"
 EMAIL_HOST_PASSWORD = "uatdrsm2020"
-EMAIL_USE_TLS = False
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_HOST_USER = "mandatairessm@gmail.com"
+
 
 # Linkedin Authentication Setting
 SOCIALACCOUNT_PROVIDERS = {
