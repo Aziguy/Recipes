@@ -200,7 +200,7 @@ SOCIALACCOUNT_PROVIDERS = {
 # Whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# Fixing 500 error
+# Fixing 500 error_
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
