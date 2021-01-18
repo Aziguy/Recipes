@@ -175,13 +175,20 @@ SITE_ID = 3
 # EMAIL_HOST_PASSWORD = "uatdrsm2020"
 # EMAIL_USE_TLS = True
 
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_SSL = True    # use port 465
-EMAIL_USE_TLS = False    # use port 587
-EMAIL_PORT = 465 # OR 587
-EMAIL_HOST_USER =  os.environ.get('mandatairessm@gmail.com')
-EMAIL_HOST_PASSWORD =os.environ.get('uatdrsm2020')  
+EMAIL_HOST = 'smtp.gmail.com'                                                                                                                                           
+EMAIL_PORT = 465
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'mandatairessm@gmail.com'
+EMAIL_HOST_PASSWORD = 'uatdrsm2020'
+DEFAULT_FROM_EMAIL = 'mandatairessm@gmail.com'
+
+# EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_USE_SSL = True    # use port 465
+# EMAIL_USE_TLS = False    # use port 587
+# EMAIL_PORT = 465 # OR 587
+# EMAIL_HOST_USER =  os.environ.get('mandatairessm@gmail.com')
+# EMAIL_HOST_PASSWORD =os.environ.get('uatdrsm2020')  
 
 # Linkedin Authentication Setting
 SOCIALACCOUNT_PROVIDERS = {
